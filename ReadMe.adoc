@@ -4,7 +4,7 @@
 :Revision: version#1
 :License: Public Domain
 
-= Project: {Project}
+= Project: Opla Heat Pump Anomaly Detection
 
 Describe your project
 
@@ -29,11 +29,13 @@ Upload the code contained in this sketch on to your board
 ....
  Heat_Pump_mar07a                => Arduino sketch folder
   ├── Heat_Pump_mar07a.ino       => main Arduino file
+  |__ thingProperties.h          => variables to link to the IOT cloud
+  |__ definitions.h              => #defines that I needed to add in order for the EI code to compile
   └── ReadMe.adoc                => this file
 ....
 
 === License
-This project is released under a {License} License.
+This project is released under a MIT License.
 
 === Contributing
 To contribute to this project please contact: justin.e.lutz@gmail.com
