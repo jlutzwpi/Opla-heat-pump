@@ -6,8 +6,6 @@
 
 = Project: Opla Heat Pump Anomaly Detection
 
-Describe your project
-
 Use an Edge Impulse advanced anomaly detection model to determine if a heat pump is off or on.
 In addition, determine if the heat pump fan is operating appropriately.  If it's vibrating too much,
 the dashboard will indicate an issue, and red LEDs will illuminate at the Opla base.
